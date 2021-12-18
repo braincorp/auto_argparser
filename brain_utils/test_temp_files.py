@@ -1,5 +1,5 @@
 import os
-from open.brain_utils.temp_files import hold_tempfile, hold_tempdir
+from auto_argparser.brain_utils.temp_files import hold_tempfile, hold_tempdir
 
 
 class _TempFileDirTestException(Exception):

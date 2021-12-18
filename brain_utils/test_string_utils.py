@@ -1,6 +1,6 @@
 from pytest import raises
 
-from open.brain_utils.string_utils import bracketed_split
+from auto_argparser.brain_utils.string_utils import bracketed_split
 
 
 def test_bracketed_split():

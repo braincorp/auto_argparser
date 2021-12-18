@@ -1,5 +1,5 @@
-from open.brain_utils.capture_output import CaptureOutput, CaptureCppOutput
-from open.brain_utils.temp_files import hold_tempfile
+from auto_argparser.brain_utils.capture_output import CaptureOutput, CaptureCppOutput
+from auto_argparser.brain_utils.temp_files import hold_tempfile
 
 
 def test_capture_output():

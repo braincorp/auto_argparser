@@ -5,7 +5,7 @@ import sys
 import threading
 import time
 
-from open.brain_utils.files import mkdir_p
+from auto_argparser.brain_utils.files import mkdir_p
 
 from io import StringIO
 
