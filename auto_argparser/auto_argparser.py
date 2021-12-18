@@ -13,9 +13,9 @@ import attr
 from attr import attrs
 from more_itertools import zip_equal  # type: ignore
 
-from open.brain_utils.capture_output import CaptureOutput
-from open.brain_utils.type_utils import get_origin, get_args, is_optional_type, get_optional_type
-from open.brain_utils.string_utils import bracketed_split, indent_string
+from auto_argparser.brain_utils.capture_output import CaptureOutput
+from auto_argparser.brain_utils.type_utils import get_origin, get_args, is_optional_type, get_optional_type
+from auto_argparser.brain_utils.string_utils import bracketed_split, indent_string
 
 ArgSpec = namedtuple('ArgSpec', ['name', 'type', 'default', 'doc'])
 
