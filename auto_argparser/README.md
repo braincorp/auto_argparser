@@ -1,0 +1,1 @@
+This is a tool for parsing command line arguments into python function arguments.  It makes it more convenient to call python functions from the terminal
