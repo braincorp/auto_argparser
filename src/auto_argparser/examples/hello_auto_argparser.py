@@ -1,4 +1,4 @@
-from open.auto_argparser.auto_argparser import AutoArgParser
+from auto_argparser import AutoArgParser
 
 
 def hello(count: int, name: str):

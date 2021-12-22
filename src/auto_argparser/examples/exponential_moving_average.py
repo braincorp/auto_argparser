@@ -1,5 +1,5 @@
 from typing import Sequence
-from open.auto_argparser.auto_argparser import AutoArgParser
+from auto_argparser import AutoArgParser
 
 
 def exponential_moving_average(items: Sequence[float], decay: float = 0.25, start_average_at_first: bool = False

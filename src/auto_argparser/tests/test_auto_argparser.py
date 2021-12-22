@@ -3,7 +3,7 @@ from typing import Dict, Sequence, Any, Optional, Union
 from attr import attrs
 from pytest import raises
 
-from auto_argparser.src.auto_argparser.auto_argparser import AutoArgParser, AutoArgParserError, AutoArgParsingSwitch, parse_single_arg
+from src.auto_argparser import AutoArgParser, AutoArgParserError, AutoArgParsingSwitch, parse_single_arg
 
 
 def test_help_string():
